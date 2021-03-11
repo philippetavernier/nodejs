@@ -3,6 +3,8 @@
 INSTALL
 ------
 
+https://nodejs.org/en/download/
+
 Unzip the binary archive to any directory you wanna install Node, I use /usr/local/lib/nodejs
 ```
  VERSION=v10.15.0
