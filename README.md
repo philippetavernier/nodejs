@@ -22,14 +22,15 @@ Refresh profile
 . ~/.profile
 ```
 Test installation using
+```
 $ node -v
 
 $ npm version
 
 $ npx -v
-
+```
 the normal output is:
-
+```
 ➜  node -v
 v10.15.1
 ➜  npm version
@@ -50,15 +51,15 @@ v10.15.1
  zlib: '1.2.11' }
 
 
-
+```
 
 
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
 
 
-CODE --JavaScript
-
+### CODE --JavaScript
+```
 // Load the http module to create an http server.
 var http = require('http');
  
@@ -74,9 +75,9 @@ server.listen(8000);
 // Put a friendly message on the terminal
 console.log("Server running at http://127.0.0.1:8000/");
 Nous enregistrons et fermons ensuite l’éditeur (CTRL + O, CTRL + X). Vous pouvez maintenant démarrer le serveur en entrant simplement ce qui suit dans le terminal :
+```
 
-
-TEST
+### TEST
 node hello-world.js
 
 
