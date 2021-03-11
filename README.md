@@ -11,7 +11,7 @@ Unzip the binary archive to any directory you wanna install Node, I use /usr/loc
  sudo tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/nodejs 
 ```
 Set the environment variable ~/.profile, add below to the end
-# Nodejs
+
 ```
 VERSION=v10.15.0
 DISTRO=linux-x64
