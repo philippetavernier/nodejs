@@ -18,7 +18,9 @@ Set the environment variable ~/.profile, add below to the end
 VERSION=v10.15.0
 DISTRO=linux-x64
 export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
+```
 Refresh profile
+```
 . ~/.profile
 ```
 Test installation using
