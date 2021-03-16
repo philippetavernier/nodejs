@@ -23,6 +23,19 @@ Refresh profile
 ```
 . ~/.profile
 ```
+edit the profile file
+```
+nano ~/.profile
+nano ~/.bashrc
+```
+and add at the end the code below
+```
+ # Nodejs
+ VERSION=v14.16.0
+ DISTRO=linux-x64
+ export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
+```
+
 Test installation using
 ```
 $ node -v
