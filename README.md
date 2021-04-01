@@ -12,7 +12,7 @@ Unzip the binary archive to any directory you wanna install Node, I use /usr/loc
  sudo mkdir -p /usr/local/lib/nodejs
  sudo tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/nodejs 
 ```
-Set the environment variable ~/.profile, add below to the end
+Set the environment variable ~/.profile
 ```
 export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
 
@@ -21,14 +21,14 @@ Refresh profile
 ```
 . ~/.profile
 ```
-
-edit the profile file
+If Refresh profile is not working ->
+Edit the profile file
 ```
 nano ~/.profile
 nano ~/.bashrc
 ```
 
-and add at the end the code below
+And add at the end the code below
 ```
  # Nodejs
  VERSION=v14.16.0
