@@ -7,27 +7,27 @@ https://nodejs.org/en/download/
 
 Unzip the binary archive to any directory you wanna install Node, I use /usr/local/lib/nodejs
 ```
- VERSION=v10.15.0
+ VERSION=v14.16.0
  DISTRO=linux-x64
  sudo mkdir -p /usr/local/lib/nodejs
  sudo tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/nodejs 
 ```
 Set the environment variable ~/.profile, add below to the end
-
 ```
-VERSION=v10.15.0
-DISTRO=linux-x64
 export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
+
 ```
 Refresh profile
 ```
 . ~/.profile
 ```
+
 edit the profile file
 ```
 nano ~/.profile
 nano ~/.bashrc
 ```
+
 and add at the end the code below
 ```
  # Nodejs
@@ -44,6 +44,7 @@ $ npm version
 
 $ npx -v
 ```
+
 the normal output is:
 ```
 ➜  node -v
