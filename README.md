@@ -40,6 +40,7 @@ And add at the end the code below
  export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
 ```
 
+Reload bash term 
 Test installation using
 ```
 $ node -v
