@@ -5,6 +5,10 @@ INSTALL
 
 https://nodejs.org/en/download/
 
+```
+wget https://nodejs.org/dist/v14.16.1/node-v14.16.1-linux-x64.tar.xz
+```
+
 Unzip the binary archive to any directory you wanna install Node, I use /usr/local/lib/nodejs
 ```
  VERSION=v14.16.0
