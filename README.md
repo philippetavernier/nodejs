@@ -71,7 +71,10 @@ v10.15.1
 
 
 ```
-
+override npm install access violation  
+```
+sudo chown -R $USER /usr/local
+```
 
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
